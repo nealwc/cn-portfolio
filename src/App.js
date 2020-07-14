@@ -1,15 +1,25 @@
 import React from "react";
-import AppNavbar from "./components/Navbar";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Navigation from "./components/Navbar";
 import Footer from "./components/Footer"
 
 function App() {
     return (
-        <div>
-        <AppNavbar />
-        <Footer />
-        </div>
+        <Router>
+            <>
+                <Navigation />
+                <Switch>
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/projects" component={Projects} />
+                </Switch>
+                <Footer />
+            </>
+        </Router>
     )
- 
+
 }
 
 export default App;
