@@ -2,17 +2,36 @@
     {
         "id": "1",
         "name": "HiyaTech",
-        "description": "",
+        "description": "User driven tech marketplace",
         "url": "https://hiya-tech.herokuapp.com/",
         "gitHub": "https://github.com/nealwc/hiya"
-
     },
     {
         "id": "2",
         "name": "RVA Fish",
-        "description": "",
+        "description": "Fishing focused social media",
         "url": "https://moustache-jake.herokuapp.com/",
         "gitHub": "https://github.com/nealwc/RVA-Fish"
-
+    },
+    {
+        "id": "3",
+        "name": "Employee Directory",
+        "description": "Employee management tool",
+        "url": "https://nealwc.github.io/employee-directory/",
+        "gitHub": "https://github.com/nealwc/employee-directory"
+    },
+    {
+        "id": "4",
+        "name": "Budget Tracker",
+        "description": "Internet optional budget app",
+        "url": "https://vast-anchorage-08638.herokuapp.com/",
+        "gitHub": "https://github.com/nealwc/budget-tracker"
+    },
+    {
+        "id": "5",
+        "name": "Workout Tracker",
+        "description": "Daily workout tracker",
+        "url": "https://obscure-taiga-88340.herokuapp.com/?id=5f1dd6ea9bdfa60017d90b3d",
+        "gitHub": "https://github.com/nealwc/workout-tracker"
     }
 ]
