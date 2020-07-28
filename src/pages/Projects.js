@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import ProjectCard from "../components/Card";
-import projects from "../projects.json"
+import ProjectCard from "../components/ProjectCard/Index";
+import projects from "../utils/projects.json"
 import { Container } from "react-bootstrap";
+import Wrapper from "../components/Wrapper"
 
 
 class Projects extends Component {
@@ -11,9 +12,17 @@ class Projects extends Component {
 
     render() {
         return (
-            <Container>
-                <ProjectCard />
-            </Container >
+            <Wrapper>
+                {this.state.projects.map(project => (
+                <ProjectCard 
+                name={project.name}
+                description={project.description}
+                url={project.url}
+                gitHub={project.gitHub}
+                image={project.image}
+                />
+                ))}
+            </Wrapper>
         );
     }
 }

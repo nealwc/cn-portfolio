@@ -1,10 +1,16 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 
 function About() {
     return (
         <Container>
-            <h1>About me</h1>
+            <Row>
+            <Col xs={4}></Col>
+            <Col xs={4}>
+            <h1>FULL-STACK WEB DEVELOPER</h1>
+            </Col>
+            <Col xs={4}></Col>
+            </Row>
         </Container>
     );
 }

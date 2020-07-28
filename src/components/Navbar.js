@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 function Navigation() {
     return (
         <Navbar bg="light" expand="lg">
-           <Navbar.Brand href="home" className="justify-content-md-center">Carter Neal</Navbar.Brand>
+           <Navbar.Brand href="/about" className="justify-content-md-center">Carter Neal</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">

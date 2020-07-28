@@ -1,37 +1,42 @@
 [
     {
         "id": "1",
-        "name": "HiyaTech",
+        "name": "Hiya-tech",
         "description": "User driven tech marketplace",
         "url": "https://hiya-tech.herokuapp.com/",
-        "gitHub": "https://github.com/nealwc/hiya"
+        "gitHub": "https://github.com/nealwc/hiya",
+        "image" : "https://i.imgur.com/Ke16xgt.png"
     },
     {
         "id": "2",
         "name": "RVA Fish",
         "description": "Fishing focused social media",
         "url": "https://moustache-jake.herokuapp.com/",
-        "gitHub": "https://github.com/nealwc/RVA-Fish"
+        "gitHub": "https://github.com/nealwc/RVA-Fish",
+        "image" : "https://i.imgur.com/tm0q4dQ.png"
     },
     {
         "id": "3",
         "name": "Employee Directory",
         "description": "Employee management tool",
         "url": "https://nealwc.github.io/employee-directory/",
-        "gitHub": "https://github.com/nealwc/employee-directory"
+        "gitHub": "https://github.com/nealwc/employee-directory",
+        "image" : "https://i.imgur.com/B60PF5K.png"
     },
     {
         "id": "4",
         "name": "Budget Tracker",
-        "description": "Internet optional budget app",
+        "description": "Internet optional budgeting",
         "url": "https://vast-anchorage-08638.herokuapp.com/",
-        "gitHub": "https://github.com/nealwc/budget-tracker"
+        "gitHub": "https://github.com/nealwc/budget-tracker",
+        "image" : "https://i.imgur.com/KBpUNu9.png"
     },
     {
         "id": "5",
         "name": "Workout Tracker",
         "description": "Daily workout tracker",
         "url": "https://obscure-taiga-88340.herokuapp.com/?id=5f1dd6ea9bdfa60017d90b3d",
-        "gitHub": "https://github.com/nealwc/workout-tracker"
+        "gitHub": "https://github.com/nealwc/workout-tracker",
+        "image" : "https://i.imgur.com/BA4Z1l9.png"
     }
 ]
