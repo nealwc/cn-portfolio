@@ -6,10 +6,10 @@ function Footer() {
         <>
             <Navbar fixed="bottom" bg="light" className="justify-content-md-center">
                 <Navbar.Brand href="https://github.com/nealwc">
-                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <i className="fa fa-github" aria-hidden="true"></i>
                 </Navbar.Brand>
                 <Navbar.Brand href="https://www.linkedin.com/in/nealwc/">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i className="fa fa-linkedin" aria-hidden="true"></i>
                 </Navbar.Brand>
             </Navbar>
         </>
